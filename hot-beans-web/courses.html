@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Courses</title>
+  <link rel="stylesheet" type="text/css" href="courses.css" />
+  <style>
+    .homepageicon {
+      width: 45px;
+    }
+
+    .applyicon {
+      width: 45px;
+    }
+
+    .meettheteamicon {
+      width: 45px;
+    }
+
+    .coursesicon {
+      width: 45px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="background-color: #446987">
+    <a href="index.html">
+      <img src="wwwlogo-removebg-preview.png" class="weblogo" alt="icon">
+    </a>
+    <h1 class="webname">HOT BEANS WEB </h1>
+    <div class="header">
+      <a href="courses.html">
+        <img src="graduation-cap-icon-512x335-2rjjt0b3-removebg-preview.png" class="coursesicon" alt="icon">
+      </a>
+      <a href="apply.html">
+        <img src="2714905-200-removebg-preview.png" class="applyicon" alt="icon">
+      </a>
+      <a href="homepage.html">
+        <img src="2144-removebg-preview.png" class="homepageicon" alt="icon">
+      </a>
+      <a href="teampage.html">
+        <img src="144340-200-removebg-preview (1).png" class="meettheteamicon" alt="icon">
+      </a>
+    </div>
+
+  </header>
+  <h1 class="coursetitle">OUR COURSES</h1>
+  <hr width="100%;" color="#446987" size="15">
+  
+  <div class="mytabs">
+    <input type="radio" id="WEBtab" name="mytabs" checked="checked">
+    <label for="WEBtab">WEB</label>
+    <div class="tab">
+        <a href="https://youtu.be/nu_pCVPKzTk?si=q6Ku42-3vuYmkj7O"><img src="MicrosoftTeams-image.png" class="webdevci" alt="icon"></a>
+    </div>
+ 
+    <input type="radio" id="CSStab" name="mytabs">
+    <label for="CSStab">CSS</label>
+    <div class="tab">
+        <a href="https://youtu.be/OXGznpKZ_sA?si=KDTaLhrABZmAOPnw"><img src="MicrosoftTeams-image (1).png" class="cssci" alt="icon"></a>
+    </div>
+ 
+    <input type="radio" id="HTMLtab" name="mytabs">
+    <label for="HTMLtab">HTML</label>
+    <div class="tab">
+        <a href="https://youtu.be/HD13eq_Pmp8?si=UBMer6mUJgNmJrPA"><img src="MicrosoftTeams-image (2).png" class="htmlci" alt="icon"></a>
+    </div>
+ 
+  </div>
+</body>
+</html>
+ 
+<style>
+  body {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+.mytabs input[type="radio"] {
+    display: none;
+}
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+ 
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #f5f5f5;
+    order: 1;
+    display: none;
+}
+.mytabs .tab h2 {
+    font-size: 3em;
+}
+ 
+.mytabs input[type='radio']:checked + label + .tab {
+    display: block;
+}
+ 
+.mytabs input[type="radio"]:checked + label {
+    background: #446987;
+}
+</style>
+
+</body>
+
+</html>

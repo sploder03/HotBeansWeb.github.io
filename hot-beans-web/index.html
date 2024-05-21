@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hot Beans Web</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .rectangle1,.rectangle2 {
+      flex: 0.5;
+      height: 100vh;
+      background: linear-gradient(#00E7F0, #0078FF);
+    }
+
+    .logo {
+      width: 550px;
+      height: 500px;
+      margin-bottom: 50px;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .enter-button {
+      padding: 10px 20px;
+      background: linear-gradient(to right, #00E7F0, #0078FF);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="rectangle1"></div>
+    <img src="hot_beans_web_logo-removebg-preview (1).png" class="logo" alt="logo">
+    <div class="rectangle2"></div>
+  </div>
+  <div class="button-container">
+    <a href="homepage.html" class="enter-button">Enter</a>
+  </div>
+</body>
+
+</html> 
