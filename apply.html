@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Apply</title>
+  <link rel="stylesheet" type="text/css" href="apply.css" />
+  <style>
+    .homepageicon {
+      width: 45px;
+    }
+
+    .applyicon {
+      width: 45px;
+    }
+
+    .meettheteamicon {
+      width: 45px;
+    }
+
+    .coursesicon {
+      width: 45px;
+      height: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header style="background-color: #446987">
+    <a href="index.html">
+      <img src="wwwlogo-removebg-preview.png" class="weblogo" alt="icon">
+    </a>
+    <h1 class="webname">HOT BEANS WEB </h1>
+    <div class="header">
+      <a href="courses.html">
+        <img src="graduation-cap-icon-512x335-2rjjt0b3-removebg-preview.png" class="coursesicon" alt="icon">
+      </a>
+      <a href="apply.html">
+        <img src="2714905-200-removebg-preview.png" class="applyicon" alt="icon">
+      </a>
+      <a href="homepage.html">
+        <img src="2144-removebg-preview.png" class="homepageicon" alt="icon">
+      </a>
+      <a href="teampage.html">
+        <img src="144340-200-removebg-preview (1).png" class="meettheteamicon" alt="icon">
+      </a>
+    </div>
+  </header>
+  <img src="lookingforjobtitle-removebg-preview.png" class="lookingfjt" alt="icon">
+  <div class="submitform">
+    <div class="fnameandlname">
+      <div>
+        <label for="fname">First name:</label>
+        <input type="text" class="fname" name="fname">
+      </div>
+      <div>
+        <label for="lname">Last name:</label>
+        <input type="text" class="lname" name="lname">
+      </div>
+    </div>
+    <div>
+      <label for="job">Choose a Job:</label>
+      <select name="jobs" class="jobs">
+        <option value="Software developer">Software developer</option>
+        <option value="UI/UX Designer">UI/UX Designer</option>
+        <option value="Web Programmer">Web Programmer</option>
+        <option value="Software Enginneer">Software Enginneer</option>
+      </select>
+    </div>
+    <div>
+      <p><label for="textboxS">Description:</label></p>
+      <textarea class="textbox" name="textbox" rows="4" cols="50">Type here...</textarea>
+      <br>
+      <div class="container">
+        <button type="submit" class="button" onclick="openPopup()">submit</button>
+        <div class="popup" id="popup">
+          <img src="Eo_circle_light-blue_checkmark.svg-removebg-preview.png" class="bluetick" alt="icon">
+          <h2>Application Submitted!</h2>
+          <p>Your submission is now being processed, check your email within 7 days to recievce any further information.</p>
+          <button type="button" onclick="closePopup()">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+function closePopup(){
+  popup.classList.remove("open-popup");
+}
+
+</script>
+</body>
+</html>

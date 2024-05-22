@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    margin: 0px;
+}
+.header {
+    margin-left: 1700px;
+    margin-top: -75px;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+.weblogo {
+    margin-left: 0px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 60px;
+}
+.webname {
+    margin-left: 68px;
+    margin-top: -59px;
+    font-size: 37px;
+    font-family: "arial black";
+    color: white;
+}
+.coursetitle {
+    font-family: "inter";
+    margin-top: 100px;
+    margin-left: 610px;
+    font-size: 100px;
+}
+.htmlci {
+    width: 600px;
+}
+.cssci {
+    width: 600px;
+}
+.webdevci {
+    width: 600px;
+}

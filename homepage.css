@@ -1,0 +1,26 @@
+body {
+  margin: 0px;
+}
+.header {
+  margin-left: 1710px;
+  margin-top: -75px;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+}
+.weblogo {
+  margin-left: 0px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  width: 60px;
+}
+.webname {
+  margin-left: 68px;
+  margin-top: -59px;
+  font-size: 37px;
+  font-family: "arial black";
+  color: white;
+}
+.aboutus {
+  margin-left: 325px;
+  margin-top: 75px;
+}
